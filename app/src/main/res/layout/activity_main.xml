@@ -58,15 +58,14 @@
         <EditText
             android:id="@+id/name_field"
             android:layout_width="match_parent"
-            android:backgroundTint="#F9A825"
             android:layout_height="wrap_content"
             android:layout_marginLeft="14dp"
             android:layout_marginRight="14dp"
             android:layout_marginTop="24dp"
+            android:backgroundTint="#F9A825"
             android:gravity="center"
-            android:inputType="textCapWords"
             android:hint="@string/name"
-            />
+            android:inputType="textCapWords" />
 
 
         <Button
