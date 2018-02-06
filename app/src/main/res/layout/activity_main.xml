@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#01579B"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="#F9A825"
+            android:text="@string/title_placeholder_main"
+            android:textSize="32sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#F9A825"
+
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/main_pic"
+        android:scaleType="center"
+        android:background="@drawable/image_view_border"
+        android:contentDescription="@string/image_main" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_gravity="center"
+        android:textColor="#F9A825"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/description" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#F9A825"
+        android:textColor="#F9A825"
+        android:inputType="textCapWords"
+        android:id="@+id/input_name"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:hint="@string/name"
+        tools:ignore="LabelFor" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:onClick="clickNext"
+            android:background="@drawable/rounded_button"
+            android:textSize="18sp"
+            android:text="@string/next_main" />
+
+    </LinearLayout>
+
+</ScrollView>

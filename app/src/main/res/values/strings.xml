@@ -1,0 +1,53 @@
+<resources>
+
+    <!--MAIN-->
+    <string name="app_name">Quiz App</string>
+    <string name="next_main">Next</string>
+
+    <string name="description_placeholder_main">Description placeholder</string>
+    <string name="title_placeholder_main">Famous quotes quiz</string>
+    <string name="image_main">This is the picture</string>
+    <string name="description">In this quiz you need to continue famous quotes</string>
+    <string name="name">Name</string>
+    <!--PAGE ONE-->
+    <string name="question_one">William Shakespeare</string>
+    <string name="back_page_one">Back</string>
+    <string name="next_page_one">Next</string>
+    <string name="description_page_one">"To be, or..</string>
+    <string name="question1_page_one">..two beers"</string>
+    <string name="question2_page_one">..not to be"</string>
+    <string name="question3_page_one">..not two bee"</string>
+    <!--PAGE TWO-->
+    <string name="question_two">Martin Luther King</string>
+    <string name="description_page_two">I have a..</string>
+    <string name="question1_page_two">..cute dog</string>
+    <string name="question2_page_two">..vision</string>
+    <string name="question3_page_two">..dream</string>
+    <!--PAGE THREE-->
+    <string name="question_three">Zeus</string>
+    <string name="description_page_three">A true hero isn\'t measured by the size of his strength..</string>
+    <string name="question1_page_three">..but by the strength of his heart.</string>
+    <string name="question2_page_three">..but by the will of his brain.</string>
+    <string name="question3_page_three">..but by the quantity of his six packs.</string>
+    <!--PAGE FOUR-->
+    <string name="question_four">Plato</string>
+    <string name="description_page_four">The harder you work..</string>
+    <string name="question1_page_four">..the more money you earn</string>
+    <string name="question2_page_four">..the exhausted you get</string>
+    <string name="question3_page_four">..the luckier you get</string>
+    <!--PAGE FIVE-->
+    <string name="question_five">Heraclitus</string>
+    <string name="description_page_five">Big results require..</string>
+    <string name="question1_page_five">..big ambitions</string>
+    <string name="question2_page_five">..money and fame</string>
+    <string name="question3_page_five">..bitcoin</string>
+    <!--PAGE SIX-->
+    <string name="question_six">Japanese Fisherman</string>
+    <string name="description_page_six">Never give..</string>
+    <string name="question1_page_six">..lemons</string>
+    <string name="question2_page_six">..bad advices</string>
+    <string name="question3_page_six">..up!</string>
+    <!--PAGE END-->
+    <string name="thank_you_for_your_time_i_hope_you_enjoyed_the_quiz">Thank you for your time, I hope you enjoyed the quiz</string>
+    <string name="result">Result</string>
+</resources>
