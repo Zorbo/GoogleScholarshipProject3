@@ -16,11 +16,11 @@
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="24dp"
-            android:textSize="32sp"
-            android:textColor="#F9A825"
             android:fontFamily="@font/raleway_bold"
             android:text="@string/question_three"
-            android:textAllCaps="true" />
+            android:textAllCaps="true"
+            android:textColor="#F9A825"
+            android:textSize="32sp" />
 
         <View
             android:layout_width="match_parent"
@@ -36,21 +36,21 @@
             android:layout_width="300dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
-            android:src="@drawable/page_three"
-            android:scaleType="fitXY"
             android:background="@android:drawable/bottom_bar"
-            android:contentDescription="@string/image_main" />
+            android:contentDescription="@string/image_main"
+            android:scaleType="fitXY"
+            android:src="@drawable/page_three" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="sans-serif-smallcaps"
-            android:textColor="#F9A825"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:textSize="18sp"
-            android:text="@string/description_page_three" />
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/description_page_three"
+            android:textColor="#F9A825"
+            android:textSize="18sp" />
 
         <View
             android:layout_width="match_parent"
@@ -70,27 +70,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/question1_page_three"
                 android:textColor="#F9A825"
-                android:textSize="16sp"
-                android:text="@string/question1_page_three" />
+                android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/page3_radio_button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/question2_page_three"
                 android:textColor="#F9A825"
-                android:textSize="16sp"
-                android:text="@string/question2_page_three" />
+                android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/page3_radio_button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/question3_page_three"
                 android:textColor="#F9A825"
-                android:textSize="16sp"
-                android:text="@string/question3_page_three" />
+                android:textSize="16sp" />
 
 
         </RadioGroup>
@@ -109,10 +109,10 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_weight="1"
-                android:textSize="18sp"
                 android:background="@drawable/rounded_button"
                 android:onClick="clickNextPageThree"
-                android:text="@string/next_page_one" />
+                android:text="@string/next_page_one"
+                android:textSize="18sp" />
 
         </LinearLayout>
 

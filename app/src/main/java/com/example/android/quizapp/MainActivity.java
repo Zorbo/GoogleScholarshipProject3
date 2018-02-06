@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void displayResult(View view){
+    public void displayResult(View view) {
 
 
         if (score == 0) {

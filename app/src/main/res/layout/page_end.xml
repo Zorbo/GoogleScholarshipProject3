@@ -11,19 +11,17 @@
         android:orientation="vertical">
 
 
-
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginLeft="16dp"
-            android:textSize="34sp"
-            android:textColor="#F9A825"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
             android:fontFamily="@font/raleway_bold"
-            android:text="@string/thank_you_for_your_time_i_hope_you_enjoyed_the_quiz" />
+            android:text="@string/thank_you_for_your_time_i_hope_you_enjoyed_the_quiz"
+            android:textColor="#F9A825"
+            android:textSize="34sp" />
 
         <View
             android:layout_width="match_parent"
@@ -35,18 +33,18 @@
             android:background="#F9A825" />
 
 
-            <Button
-                android:id="@+id/display_result"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="100dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:textSize="18sp"
-                android:background="@drawable/rounded_button"
-                android:onClick="displayResult"
-                android:text="@string/result" />
+        <Button
+            android:id="@+id/display_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/rounded_button"
+            android:onClick="displayResult"
+            android:text="@string/result"
+            android:textSize="18sp" />
 
 
     </LinearLayout>
